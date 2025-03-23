@@ -1,9 +1,12 @@
 <html>
 <head>
-</head>
-
+<image src = "logo.JPG" width = 200px height = 200px></image>
 <h2>MAE148 Final Project</h2>
 <p>Team 9<p>
+<image src = "robocar.JPG" width = 300px height = 300px></image>
+</head>
+
+
 
 <body>
 
@@ -49,9 +52,13 @@
 
 <section>
 <h4>Mechanical documentation</h4>
-<image src = "mechanical diagram.JPG">
-
-
+<image src = "diagram.JPG"></image>
 </section>
 </body>
+
+<footer>
+
+Thanks to Professor Jack Siberman and the TA's Alexander, Winston, and Vivekanand.
+
+</footer>
 </html>
