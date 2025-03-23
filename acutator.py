@@ -21,10 +21,10 @@
             logging.info(" ")
             #blank
         de = _detector_instance
-        #while de.is_robot_detected():
-            #logger.info("object detected")
-            #self.v.set_servo((0 * self.steering_scale) + self.steering_offset)
-            #self.v.set_duty_cycle(0*self.percent)
+        while de.is_robot_detected():
+            logger.info("object detected")
+            self.v.set_servo((0 * self.steering_scale) + self.steering_offset)
+            self.v.set_duty_cycle(0*self.percent)
         self.v.set_servo((angle * self.steering_scale) + self.steering_offset)
         self.v.set_duty_cycle(throttle*self.percent)
         logger.info("object not detected")
