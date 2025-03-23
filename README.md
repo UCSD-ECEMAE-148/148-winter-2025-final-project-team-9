@@ -30,14 +30,14 @@
 <h3>Original Goals</h3>
 
 <p>The original plan was to use an ROS2 implementation. However, due to time constraints, we decided to just modify the internal workings of the donkeycar itself</p>
-
-<ul>The Must Haves for the Project:
+<p>The Must Haves for the Project:</p>
+<ul>
 	<li>The ability for the robot to react to a model detecting an obstacle, mainly by stopping.</li>
 	<li>The ability to run GPS laps</li>
 	<li>A model for the robot to run</li>
 </ul>
-
-<ul>The Nice Haves for the Project:
+<p>The Nice Haves for the Project:</p>
+<ul>
 	<li>The ability to turn around an object based on closeness</li>
 	<li>An accurate model that can detect a robocar</li>
 	<li>The ability for the car to quickly detect and react to obstacles. </li>
@@ -53,8 +53,8 @@
 <p>Summary:We managed to get the GPS running on the docker container, along with having the robot react to the model detection. However, we were unable to get those two working together at the same time.</p>
 
 <p>Here is a video of the robocar reacting to the model</p>
+<p>https://youtube.com/shorts/jSap0I74En4</p>
 
-<video href=IMG_3293.mov>test</video>
 
 
 
