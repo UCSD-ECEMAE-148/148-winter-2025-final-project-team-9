@@ -9,10 +9,15 @@
 
 
 <body>
-
+    <section>
+        <h3>Team members</h3>
+        <li>Dillon Kim:CE major</li>
+        <li>Jason Young:MAE major</li>
+        <li>Sarena Pham:CE major</li>
+        </section>
 <section>
 
-<h3>Final Project Description</h3>
+<h3>Final Project: Collision Avoidance</h3>
 
 <p>Our goal for the final project was to have an object detection model that would work concurrently with GPS laps. The main idea is that the robocar would race around in a figure 8. While racing, the robot would have a model that would be able to detect obstacles. When an obstacle was detected, it would stop. When the robot no longer was able to detect an obstacle, it would then begin to drive again as normal.</p>
 
@@ -30,7 +35,7 @@
 <section>
 
 <h3>Tasks met</h3>
-<p></p>
+<p>We managed to get the GPS running on the docker container, along with having the robot react to the model detection.</p>
 
 </section>
 
@@ -40,6 +45,15 @@
 
 </section>
 
+<section>
+    <h4>Other Assignments done with the robocar</h4>
+
+    <li><a href = "https://youtube.com/shorts/MIYmDNecfd0?feature=share">Autonomous lap</a></li>
+
+    <li><a href = "https://youtu.be/w0lJrg6fRcE?feature=shared">GPS laps</a></li>
+
+    <li><a href="https://youtu.be/xnzpPU3z34I?feature=shared ">Link to OpenCV laps</a></li>
+</section>
 
 <section>
 <h4>Software documentation</h4>
@@ -57,8 +71,8 @@
 </body>
 
 <footer>
-
-Thanks to Professor Jack Siberman and the TA's Alexander, Winston, and Vivekanand.
+<h4>Acknowledgements</h4>
+<p>Thanks to Professor Jack Siberman and the TA's Alexander, Winston, and Vivekanand.</p>
 
 </footer>
 </html>
