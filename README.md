@@ -21,6 +21,12 @@
 
 <p>Our goal for the final project was to have an object detection model that would work concurrently with GPS laps. The main idea is that the robocar would race around in a figure 8. While racing, the robot would have a model that would be able to detect obstacles. When an obstacle was detected, it would stop. When the robot no longer was able to detect an obstacle, it would then begin to drive again as normal.</p>
 
+<ul>The Must Haves:
+	<li>The ability for the robot to react to a model detecting an obstacle, mainly by stopping.</li>
+	<li>The ability to run GPS laps</li>
+	<li>A model for the robot to run</li>
+</ul>
+
 
 </section>
 
