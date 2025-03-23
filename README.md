@@ -35,7 +35,10 @@
 <section>
 
 <h3>Tasks met</h3>
-<p>We managed to get the GPS running on the docker container, along with having the robot react to the model detection.</p>
+
+<p>Summary:We managed to get the GPS running on the docker container, along with having the robot react to the model detection. However, we were unable to get those two working together at the same time.</p>
+
+
 
 </section>
 
@@ -48,18 +51,20 @@
 <section>
     <h4>Other Assignments done with the robocar</h4>
 
-    <li><a href = "https://youtube.com/shorts/MIYmDNecfd0?feature=share">Autonomous lap</a></li>
+    <a href = "https://youtube.com/shorts/MIYmDNecfd0?feature=share">Autonomous lap</a>
 
-    <li><a href = "https://youtu.be/w0lJrg6fRcE?feature=shared">GPS laps</a></li>
+    <a href = "https://youtu.be/w0lJrg6fRcE?feature=shared">GPS laps</a>
 
-    <li><a href="https://youtu.be/xnzpPU3z34I?feature=shared ">Link to OpenCV laps</a></li>
+    <a href="https://youtu.be/xnzpPU3z34I?feature=shared ">Link to OpenCV laps</a>
 </section>
 
 <section>
 <h4>Software documentation</h4>
-<p>First, you need to mount the donkeycar directory inside a new container. When you do so, you need to then check to see if GPS laps can be run in the docker container</p>
+<P>The current model implementation requires depthai and the sdk dependencies to be upgraded. In order to get this implementation of the model running, it is recommended to have the model itself run on the donkeycontainer</p>
+<p>You need to mount the donkeycar directory inside a new container. When you do so, you need to then check to see if GPS laps can be run in the docker container</p>
 <p>The model that was created would be directly imported from roboflow. The detector callback function would return a true false statement, which would decide whether the robot detects it or not.</p>
 <p>You would need to import the file that runs the model(in this case the camerausb) and then make some changes to acutator.py.</p>
+
 <p>The implementation relies on the need to have an thread be created. The if statement is there so only one thread is made. The while loop will then set the angle and throttle to 0 in order to stop the robot when the model detects something.</p>
 
 </section>
