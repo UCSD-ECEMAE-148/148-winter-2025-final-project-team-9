@@ -21,11 +21,6 @@
 
 <p>Our goal for the final project was to have an object detection model that would work concurrently with GPS laps. The main idea is that the robocar would race around in a figure 8. While racing, the robot would have a model that would be able to detect obstacles. When an obstacle was detected, it would stop. When the robot no longer was able to detect an obstacle, it would then begin to drive again as normal.</p>
 
-<ul>The Must Haves:
-	<li>The ability for the robot to react to a model detecting an obstacle, mainly by stopping.</li>
-	<li>The ability to run GPS laps</li>
-	<li>A model for the robot to run</li>
-</ul>
 
 
 </section>
@@ -35,6 +30,19 @@
 <h3>Original Goals</h3>
 
 <p>The original plan was to use an ROS2 implementation. However, due to time constraints, we decided to just modify the internal workings of the donkeycar itself</p>
+
+<ul>The Must Haves for the Project:
+	<li>The ability for the robot to react to a model detecting an obstacle, mainly by stopping.</li>
+	<li>The ability to run GPS laps</li>
+	<li>A model for the robot to run</li>
+</ul>
+
+<ul>The Nice Haves for the Project:
+	<li>The ability to turn around an object based on closeness</li>
+	<li>An accurate model that can detect a robocar</li>
+	<li>The ability for the car to quickly detect and react to obstacles. </li>
+</ul>
+
 
 </section>
 
