@@ -49,6 +49,8 @@
 
 <section>
 <h4>Mechanical documentation</h4>
+<image src = "mechanical diagram.JPG">
+
 
 </section>
 </body>
