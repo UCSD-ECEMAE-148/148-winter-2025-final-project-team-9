@@ -64,12 +64,12 @@
 
 <section>
     <h4>Other Assignments done with the robocar</h4>
-
-    <a href = "https://youtube.com/shorts/MIYmDNecfd0?feature=share">Autonomous lap</a>
-
-    <a href = "https://youtu.be/w0lJrg6fRcE?feature=shared">GPS laps</a>
-
-    <a href="https://youtu.be/xnzpPU3z34I?feature=shared ">Link to OpenCV laps</a>
+    <p>Autonomous lap</p>
+    <link>https://youtube.com/shorts/MIYmDNecfd0?feature=share</link>
+    <p>GPS lap</p>
+    <link>https://youtu.be/w0lJrg6fRcE?feature=shared</link>
+    <p>OpenCV lap</p>
+    <link>https://youtu.be/xnzpPU3z34I?feature=shared</link>
 </section>
 
 <section>
