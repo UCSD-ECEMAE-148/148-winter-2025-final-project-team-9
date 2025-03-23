@@ -93,6 +93,10 @@
 <section>
 <h4>Mechanical documentation</h4>
 <image src = "diagram.JPG"></image>
+
+<p>Orange lidar mount:https://cad.onshape.com/documents/ac0c79804f0119ca016675cd/w/fb4d21fe24ad051bae48313e/e/ca930eb42fde4e6012a60675?renderMode=0&uiState=67e05ebe48d9c8025a8743b5</p>
+<p>Green camera holder:https://cad.onshape.com/documents/681a28c8048787a752c53829/w/c6ccd98731fac958f389a55a/e/18c55d35ca7f74e7667ec29d?renderMode=0&uiState=67e05e775fa55176d8f6e7b8 </p>
+<p>Wood base plate:https://cad.onshape.com/documents/ac0c79804f0119ca016675cd/w/fb4d21fe24ad051bae48313e/e/f52265452eab760c9278867b?renderMode=0&uiState=67e05f0748d9c8025a874474</p>
 </section>
 </body>
 
