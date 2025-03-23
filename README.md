@@ -52,6 +52,10 @@
 
 <p>Summary:We managed to get the GPS running on the docker container, along with having the robot react to the model detection. However, we were unable to get those two working together at the same time.</p>
 
+<p>Here is a video of the robocar reacting to the model</p>
+
+<video href=IMG_3293.mov>test</video>
+
 
 
 </section>
