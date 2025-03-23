@@ -69,8 +69,11 @@
 <section>
     <h4>Other Assignments done with the robocar</h4>
     <p>Autonomous lap</p>
+
     <link>https://youtube.com/shorts/MIYmDNecfd0?feature=share</link>
+
     <p>GPS lap</p>
+    
     <link>https://youtu.be/w0lJrg6fRcE?feature=shared</link>
     <p>OpenCV lap</p>
     <link>https://youtu.be/xnzpPU3z34I?feature=shared</link>
@@ -78,7 +81,7 @@
 
 <section>
 <h4>Software documentation</h4>
-<P>The current model implementation requires depthai and the sdk dependencies to be upgraded. In order to get this implementation of the model running, it is recommended to have the model itself run on the donkeycontainer</p>
+<P>The current model implementation requires depthai and the dephaisdk dependencies to be upgraded(depthai 2.28, sdk 1.15). In order to get this implementation of the model running, it is recommended to have the model itself run on the donkeycontainer</p>
 <p>You need to mount the donkeycar directory inside a new container. When you do so, you need to then check to see if GPS laps can be run in the docker container</p>
 <p>The model that was created would be directly imported from roboflow. The detector callback function would return a true false statement, which would decide whether the robot detects it or not.</p>
 <p>You would need to import the file that runs the model(in this case the camerausb) and then make some changes to acutator.py.</p>
