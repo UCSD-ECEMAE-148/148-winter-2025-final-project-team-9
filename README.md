@@ -93,10 +93,12 @@
 <section>
 <h4>Mechanical documentation</h4>
 <image src = "diagram.JPG"></image>
-
+<p>Electrical Diagram Revised Explanation: The RoboCar or robot car is connected to a power supply in the form of a LiPo battery of at least 14.8 V that provides power to the entire car. The distribution of power across the entire car can be controlled with the VESC switch that powers on or off the car. When the VESC switch is turned on, current flows through the anti-spark switch that prevents sparking of the car, and then into the buck converter that steps down the DC voltage to a safe level. The DC-DC buck converter is crucial in protecting all hardware components of the car, preventing overflow of current causing a short in the entire car that would cease the car's ability to function. The DC barrel jack redirects stepped-down current coming out from the buck converter to the Jetson, allowing the Jetson to turn on. The Jetson then powers the GPS Nav1, the OAK-D camera, and the VESC steering control. The Jetson itself allows the car to collect signals from the Earth to determine location accurately, to see objects in front of the car, and to power the steering control that helps drive and turn the car. The motor or throttle of the car provides engine power to the VESC steering control, enabling the car to move forwards, backwards, and steering motions.</p>
 <p>Orange lidar mount:https://cad.onshape.com/documents/ac0c79804f0119ca016675cd/w/fb4d21fe24ad051bae48313e/e/ca930eb42fde4e6012a60675?renderMode=0&uiState=67e05ebe48d9c8025a8743b5</p>
 <p>Green camera holder:https://cad.onshape.com/documents/681a28c8048787a752c53829/w/c6ccd98731fac958f389a55a/e/18c55d35ca7f74e7667ec29d?renderMode=0&uiState=67e05e775fa55176d8f6e7b8 </p>
 <p>Wood base plate:https://cad.onshape.com/documents/ac0c79804f0119ca016675cd/w/fb4d21fe24ad051bae48313e/e/f52265452eab760c9278867b?renderMode=0&uiState=67e05f0748d9c8025a874474</p>
+
+
 </section>
 </body>
 
